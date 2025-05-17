@@ -1,70 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Site</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>Angela's stuff</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
       background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
       font-family: 'Orbitron', sans-serif;
-      color: #ffffff;
+      color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
       min-height: 100vh;
     }
-
     h1 {
-      font-size: 3rem;
-      margin-bottom: 30px;
+      margin: 30px 0 10px 0;
       color: #00ff88;
       text-shadow: 0 0 10px #00ff88;
     }
-
-    button {
-      font-size: 1.5rem;
-      padding: 15px 40px;
-      background: #00ff88;
-      color: black;
+    iframe {
+      width: 90vw;
+      height: 80vh;
       border: none;
       border-radius: 12px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      box-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+      box-shadow: 0 0 20px #00ff88;
     }
-
-    button:hover {
-      background: #00cc66;
-      box-shadow: 0 0 20px #00ff88, 0 0 30px #00ff88;
-      transform: scale(1.05);
-    }
-
     .note {
-      margin-top: 40px;
+      margin-top: 15px;
       font-size: 1rem;
       color: #aaaaaa;
       font-style: italic;
     }
-
-    footer {
-      margin-top: 30px;
-      font-size: 0.9rem;
-      color: #555;
-    }
   </style>
 </head>
 <body>
-  <h1>portal</h1>
-  <button onclick="window.location.href='https://yee.pages.dev/'">mcraft 1.8</button>
+  <h1>Angela's Stuff</h1>
 
-  <div class="note">made by angela, not intended for school purposes (MMS 2026) </div>
+  <!-- Embed the game here -->
+  <iframe src="https://yee.pages.dev/" title="mcraft 1.8 game"></iframe>
 
-  <footer>
-    &copy; 2025 Angela's portal | Powered by GitHub Pages
-  </footer>
+  <div class="note">made by angela, not intended for school purposes</div>
 </body>
 </html>
